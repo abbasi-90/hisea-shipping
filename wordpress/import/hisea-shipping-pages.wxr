@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS export for HiSea Shipping, 4 pages.
+     Import: Tools > Import > WordPress > Run Importer, upload this file.
+     Pages use the HiSea Shipping theme templates (page-home.php etc).
+     Content is also in pages/*.html as a fallback. -->
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+  <channel>
+    <title>HiSea Shipping</title>
+    <link>https://hiseashipping.com</link>
+    <description>International Shipping and Freight Forwarding, Lahore, Pakistan</description>
+    <pubDate>Tue, 11 Nov 2026 00:00:00 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://hiseashipping.com</wp:base_site_url>
+    <wp:base_blog_url>https://hiseashipping.com</wp:base_blog_url>
+    <wp:author>
+      <wp:author_id>1</wp:author_id>
+      <wp:author_login><![CDATA[admin]]></wp:author_login>
+      <wp:author_email><![CDATA[info@hiseashipping.com]]></wp:author_email>
+      <wp:author_display_name><![CDATA[admin]]></wp:author_display_name>
+      <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+      <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+    </wp:author>
+    <item>
+      <title>Home</title>
+      <link>https://hiseashipping.com/home/</link>
+      <pubDate>Tue, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[admin]]></dc:creator>
+      <guid isPermaLink="false">https://hiseashipping.com/?page_id=1</guid>
+      <description></description>
+      <content:encoded><![CDATA[<h1>International Shipping and Freight Forwarding</h1>
+<p>Hi Sea Shipping offers a complete range of integrated global logistics solutions: Import and Export services via air, land and sea freight, door to door cross border delivery, warehousing and distribution, and packing and relocation.</p>
+
+<h2>Our Services — Booking our cargo to the future</h2>
+<ul>
+  <li><strong>Sea Freight</strong> — One stop logistical solution for all types of cargo movement by sea.</li>
+  <li><strong>Air Freight</strong> — Full range of services for all kinds of air shipments.</li>
+  <li><strong>Land Freight</strong> — Overland transportation covering all destinations, with a well-established network of operations.</li>
+  <li><strong>Warehousing</strong> — Excellent Warehousing and Distribution Services, with a dedicated spacious warehouse in Karachi.</li>
+  <li><strong>Cargo Management</strong> — Project Cargo Services, including planning and scheduling the movement of project and over-dimensional cargo.</li>
+  <li><strong>Movers and Packers</strong> — Packing, local movement, wooden ply boxes, wooden crates, wooden pallets and household shipments.</li>
+  <li><strong>Customs Clearance</strong> — Customs Clearance Services for Export and Import consignments.</li>
+  <li><strong>Door to Door</strong> — Inland point delivery up to the consignee door, with close co-ordination with overseas agent partners.</li>
+</ul>
+
+<h2>Why to Choose Us — Thinking the way forward</h2>
+<p>Our purpose is to establish psychological proximity of our customer with maximum satisfaction. We strive to build relationship based on mutual trust, respect and transparency. Our focus would be to spread the vicinity of our well trusted brand values globally by enhancing our goodwill and reputation.</p>
+<ul>
+  <li>Goods Packaging</li>
+  <li>Destination Possibilities</li>
+  <li>Goods Tracking System</li>
+  <li>High Protection</li>
+</ul>
+
+<h2>What Our Clients Say — All what customers said about us</h2>
+<blockquote>“Best shipping service anyone can provide out of Pakistan for furniture and other products.” — Babar Nawaz</blockquote>
+<blockquote>“Superb, Efficient and Excellent Service Providers..” — Deep Sea Love</blockquote>
+]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>1</wp:post_id>
+      <wp:post_date><![CDATA[2026-11-11 00:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-11-11 00:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[home]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>1</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password><![CDATA[]]></wp:post_password>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[page-home.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>https://hiseashipping.com/about/</link>
+      <pubDate>Tue, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[admin]]></dc:creator>
+      <guid isPermaLink="false">https://hiseashipping.com/?page_id=2</guid>
+      <description></description>
+      <content:encoded><![CDATA[<h1>About Us — Booking our cargo to the future</h1>
+<p>Hi Sea Shipping is an international Shipping and Freight Forwarding company that offers a complete range shipping services like sea freight, air freight and land freight, Packing, Relocation, Warehousing and Custom brokerage, by providing the highest levels of customer satisfaction to our customers.</p>
+<p>Hi Sea Shipping is led by industry experts who are having rich experience in the field of shipping and logistics for 2 decades and working towards excellence, and we pride ourselves as leading service provider to meet challenges and perfection at work. By keeping relation with multiple carriers, we can provide the solution to any shipping requirement and serve as one window operation for all products moving through your supply chain. We have access to very competitive rates, which are fair and are constantly revised to reflect industry conditions.</p>
+
+<h2>Mission and Vision [DRAFT — friend to approve]</h2>
+<h3>Our Mission</h3>
+<p>To establish psychological proximity of our customer with maximum satisfaction, and to build relationships based on mutual trust, respect and transparency, while upholding high professional standards relating to service performance and commitment to satisfaction.</p>
+<h3>Our Vision</h3>
+<p>To spread the vicinity of our well trusted brand values globally by enhancing our goodwill and reputation, catering to the most usual trade lanes in and out of Pakistan.</p>
+
+<h2>Our Strength</h2>
+<p>As Shipping and Forwarding Agent, we assure to provide our clients with the safe transportation of goods from one place to another.</p>
+<p>At Hi Sea Shipping we believe our customers are important and part of our business and our objective is to provide Quality Shipping Solutions across UAE and Abroad. By maintaining a friendly and professional approach in our services, our customized solutions have always had proactive methods besides being highly cost effective and competitive in the logistics scenario.</p>
+
+<h2>Why to Choose Us</h2>
+<ul>
+  <li>Goods Packaging</li>
+  <li>Destination Possibilities</li>
+  <li>Goods Tracking System</li>
+  <li>High Protection</li>
+</ul>
+]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>2</wp:post_id>
+      <wp:post_date><![CDATA[2026-11-11 00:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-11-11 00:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[about]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>2</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password><![CDATA[]]></wp:post_password>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[page-about.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://hiseashipping.com/services/</link>
+      <pubDate>Tue, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[admin]]></dc:creator>
+      <guid isPermaLink="false">https://hiseashipping.com/?page_id=3</guid>
+      <description></description>
+      <content:encoded><![CDATA[<h1>Services — Go beyond logistics, make the revolution business</h1>
+<p>Hi Sea Shipping offers a complete range of integrated global logistics solutions.</p>
+
+<h2>Sea Freight</h2>
+<p>Our ocean freight department offers one stop logistical solution for all types of cargo movement by sea. With our wide network of partners worldwide we are able to handle shipments from all parts of the world. Along with our partners we provide personalized services to our customers and provide end-to end movement information. We pride ourselves on our excellent relationship with most of the major shipping lines to provide the most effective solutions to our clients.</p>
+
+<h2>Air Freight</h2>
+<p>We have expertise, infrastructure and strong financial background to provide full range of services for all kinds of air shipments.</p>
+
+<h2>Land Freight</h2>
+<p>Our overland transportation services covers all the destinations with our well-established network of operations.</p>
+
+<h2>Warehousing</h2>
+<p>Hi Sea Shipping has received appreciation from the clients from all over the world for offering excellent Warehousing Services. At Hi Sea Shipping, we have a dedicated spacious warehouse in Karachi in order to provide warehousing facility to bulk manufacturers, buyers, exporters and traders. Our warehouse is equipped with latest inventory management, security system, loading and unloading equipment and hi-tech security mechanisms all of which work to facilitate uninterrupted services to our customers for movement of goods.</p>
+
+<h2>Cargo Management</h2>
+<p>We offer Project Cargo Services which includes planning, port feasibility studies, conceptual design of port and other maritime transport projects, trade and traffic forecasts, financing strategies. In order to move project and over dimensional cargo, it requires immense expertise, experience and knowledge. We plan and schedule the movement of project cargo by ensuring that every project is completed on time and to the exact specifications. At Hi Sea Shipping, the project cargo movements are handled by an experienced team by offering special attention for the movements of heavy and over-dimensional cargoes.</p>
+
+<h2>Movers and Packers</h2>
+<p>Hi Sea Shipping Pakistan is a re-known name in packing and moving and has best expertise in packing, Local movement, Wooden Ply Boxes, Wooden Crates, Wooden Pallet, house hold shipments. By the grace of Allah, Company has a very strong footing in furniture industry, providing services to the leading brand names of Lahore, Gujrat, Chiniot and Islamabad. Company also offers the local relocations like home and office movement from one place to another place nationwide.</p>
+<p>Fragile stuff handling is company’s specialty. By The Grace of Mighty Allah, Company has credited hundreds of safe and sound deliveries around the world especially USA, Canada, UK, Ireland, Scotland, Australia, Europe, UAE etc. Our Valued and satisfied customers are the Hi Sea Family.</p>
+
+<h2>Customs Clearance</h2>
+<p>We offer Customs Clearance Services for Export Import consignments.</p>
+
+<h2>Door to Door</h2>
+<p>We provide inland point services delivery up to consignee door with close co-ordination with overseas agent partners.</p>
+
+<h2>Warehousing in Karachi</h2>
+<p>Hi Sea Shipping has a dedicated spacious warehouse in Karachi for bulk manufacturers, buyers, exporters and traders, equipped with latest inventory management, security system, loading and unloading equipment and hi-tech security mechanisms.</p>
+]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>3</wp:post_id>
+      <wp:post_date><![CDATA[2026-11-11 00:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-11-11 00:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[services]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>3</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password><![CDATA[]]></wp:post_password>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[page-services.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://hiseashipping.com/contact/</link>
+      <pubDate>Tue, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[admin]]></dc:creator>
+      <guid isPermaLink="false">https://hiseashipping.com/?page_id=4</guid>
+      <description></description>
+      <content:encoded><![CDATA[<h1>Contact — Request a quote</h1>
+<p>Make the world go round and revolution business.</p>
+
+<h2>Head Office</h2>
+<p>M2-14 Eden Tower, Main Boulevard Gulberg III, Lahore, Pakistan</p>
+
+<h2>Call Us Now</h2>
+<p>+92 321 449 9420<br>
+92-42-3578 2192-3</p>
+
+<h2>Email</h2>
+<p>info@hiseashipping.com</p>
+
+<h2>Warehouse</h2>
+<p>Dedicated warehouse in Karachi, Pakistan</p>
+
+<h2>Request a Quote</h2>
+<p>Form fields: Name, Email, Message. Submit button: “Get A FREE Quote”. Quote requests are sent to info@hiseashipping.com.</p>
+]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>4</wp:post_id>
+      <wp:post_date><![CDATA[2026-11-11 00:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-11-11 00:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[contact]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>4</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password><![CDATA[]]></wp:post_password>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[page-contact.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+  </channel>
+</rss>

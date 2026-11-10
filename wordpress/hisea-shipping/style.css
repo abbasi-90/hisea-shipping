@@ -1,0 +1,195 @@
+/*
+Theme Name: HiSea Shipping
+Theme URI: https://hiseashipping.com/
+Author: Ahmad Ali
+Author URI: https://www.linkedin.com/in/ahmadaliabbasi
+Description: Clean rebuild of the HiSea Shipping website, from scratch. Four short pages (Home, About Us, Services, Contact), same header and footer throughout. Built for Elementor Free: the theme renders all four pages correctly on its own, and the pages can also be edited with Elementor Free. No Elementor Pro needed. Contact form is built into the theme and sends to info@hiseashipping.com; Contact Form 7 can be used instead if preferred. Fonts (Sora and Manrope) are self-hosted in this theme, no Google Fonts requests.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hisea-shipping
+Tags: shipping, freight, logistics, blue, responsive, elementor
+*/
+
+/* Self-hosted fonts. No Google Fonts, no external font requests. */
+@font-face {
+  font-family: "Sora";
+  src: url("assets/fonts/sora.woff2") format("woff2");
+  font-weight: 600 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/fonts/manrope.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --navy: #08263f;
+  --navy-deep: #0a1a28;
+  --footer-bg: #061c2f;
+  --sky: #0e7fb8;
+  --sky-soft: #e6f3fa;
+  --amber: #e8a33d;
+  --amber-soft: #ffe1a3;
+  --ink: #12212e;
+  --muted: #5a6b78;
+  --line: #dde6ea;
+  --bg: #ffffff;
+  --bg-soft: #f2f6f8;
+  --bg-blue: #eaf3f8;
+  --footer-text: #c3d4df;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 17px;
+  line-height: 1.65;
+}
+h1, h2, h3, h4 {
+  font-family: "Sora", "Manrope", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--navy);
+  margin: 0 0 0.6em;
+}
+h1 { font-size: 2.6rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.3rem; }
+p { margin: 0 0 1em; }
+a { color: var(--sky); }
+a:hover { color: var(--navy); }
+img { max-width: 100%; height: auto; }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.section { padding: 64px 0; }
+.section-soft { background: var(--bg-soft); }
+.section-blue { background: var(--bg-blue); }
+.eyebrow {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sky);
+  margin: 0 0 0.5em;
+}
+.lead { font-size: 1.15rem; color: var(--muted); }
+
+/* Top bar */
+.topbar { background: var(--navy-deep); color: var(--footer-text); font-size: 0.9rem; }
+.topbar .container { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; padding-top: 8px; padding-bottom: 8px; }
+.topbar a { color: #ffffff; text-decoration: none; }
+.topbar a:hover { text-decoration: underline; }
+.topbar .spacer { flex: 1; }
+
+/* Header */
+.site-header { background: #ffffff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 50; }
+.site-header .container { display: flex; align-items: center; gap: 24px; min-height: 72px; }
+.site-logo { font-family: "Sora", sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: -0.02em; color: var(--navy); text-decoration: none; white-space: nowrap; }
+.site-logo span { color: var(--sky); }
+.site-logo img { max-height: 56px; width: auto; display: block; }
+.site-logo .tagline { display: block; font-family: "Manrope", sans-serif; font-weight: 600; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.main-nav { margin-left: auto; }
+.main-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; flex-wrap: wrap; }
+.main-nav a { display: block; padding: 10px 14px; color: var(--ink); text-decoration: none; font-weight: 700; border-radius: 6px; }
+.main-nav a:hover, .main-nav .current-menu-item a, .main-nav .current_page_item a { color: var(--sky); background: var(--sky-soft); }
+.btn {
+  display: inline-block; background: var(--amber); color: #231600; font-family: "Sora", sans-serif;
+  font-weight: 700; text-decoration: none; padding: 12px 22px; border-radius: 8px; border: 0; cursor: pointer; font-size: 1rem;
+}
+.btn:hover { background: #d18f2e; color: #231600; }
+.btn-outline { background: transparent; color: #ffffff; border: 2px solid #ffffff; }
+.btn-outline:hover { background: #ffffff; color: var(--navy); }
+.header-cta { white-space: nowrap; }
+.mobile-nav-toggle { display: none; }
+
+/* Hero */
+.hero { background: var(--navy); color: #ffffff; padding: 72px 0; }
+.hero h1 { color: #ffffff; }
+.hero p { color: var(--footer-text); }
+.hero .btn-outline { margin-left: 12px; }
+.hero .eyebrow { color: var(--amber); }
+
+/* Cards / services */
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.card { background: #ffffff; border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+.card h3 { margin-bottom: 0.4em; }
+.card p:last-child { margin-bottom: 0; }
+.card .icon { font-family: "Sora", sans-serif; font-weight: 800; color: var(--sky); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.service-card { border-top: 4px solid var(--sky); }
+.service-card:nth-child(3n) { border-top-color: var(--amber); }
+.why-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.why-list li { background: #ffffff; border: 1px solid var(--line); border-radius: 12px; padding: 20px; font-family: "Sora", sans-serif; font-weight: 700; color: var(--navy); }
+
+/* Testimonials */
+.testimonial { background: var(--navy); color: #ffffff; border-radius: 12px; padding: 28px; }
+.testimonial blockquote { margin: 0 0 1em; font-size: 1.15rem; line-height: 1.5; }
+.testimonial cite { font-style: normal; font-family: "Sora", sans-serif; font-weight: 700; color: var(--amber); }
+
+/* CTA band */
+.cta-band { background: var(--sky); color: #ffffff; padding: 48px 0; }
+.cta-band h2 { color: #ffffff; }
+.cta-band p { color: #e6f3fa; }
+.cta-band .container { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }
+.cta-band .cta-text { flex: 1; min-width: 260px; }
+
+/* Forms */
+.quote-form label { display: block; font-weight: 700; margin: 0 0 4px; }
+.quote-form input[type="text"], .quote-form input[type="email"], .quote-form textarea {
+  width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 8px;
+  font-family: "Manrope", sans-serif; font-size: 1rem; margin-bottom: 16px; background: #ffffff;
+}
+.quote-form textarea { min-height: 140px; }
+.form-notice { background: #e6f3fa; border: 1px solid var(--sky); border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+.form-notice.error { background: #fdf0e6; border-color: var(--amber); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+.contact-block { background: var(--bg-soft); border-radius: 12px; padding: 24px; margin-bottom: 16px; }
+.contact-block h3 { margin-bottom: 0.3em; }
+
+/* Footer */
+.site-footer { background: var(--footer-bg); color: var(--footer-text); padding: 56px 0 0; }
+.site-footer h3 { color: #ffffff; font-size: 1.05rem; }
+.site-footer a { color: #ffffff; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; padding-bottom: 40px; }
+.footer-grid ul { list-style: none; margin: 0; padding: 0; }
+.footer-grid li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid #1f425c; padding: 18px 0; font-size: 0.9rem; }
+.footer-bottom .container { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+
+/* Page header */
+.page-head { background: var(--bg-blue); padding: 48px 0; }
+.page-head h1 { margin-bottom: 0.3em; }
+.page-head p { color: var(--muted); margin: 0; }
+.page-content { padding: 48px 0; }
+.page-content > .container > *:first-child { margin-top: 0; }
+
+/* Responsive */
+@media (max-width: 860px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  .grid, .grid-3, .grid-4, .why-list, .contact-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .header-cta { display: none; }
+  .site-header .container { flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
+  .main-nav { margin-left: 0; width: 100%; }
+  .main-nav ul { gap: 2px; }
+  .main-nav a { padding: 8px 10px; }
+  .hero { padding: 48px 0; }
+  .section { padding: 44px 0; }
+  .topbar .spacer { display: none; }
+}
